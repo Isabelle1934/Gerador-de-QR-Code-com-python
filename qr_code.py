@@ -1,5 +1,4 @@
 import qrcode
 
-website_link = https://github.com/Isabelle1934
-
+website_link = 'https://github.com/Isabelle1934'
 
