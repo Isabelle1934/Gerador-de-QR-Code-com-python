@@ -9,8 +9,8 @@ qr.make()
 #O parâmetro controla quantos pixels cada "caixa" do código QR tem.box_size
 #O parâmetro controla quantas caixas a borda deve ter de espessura.border
 
-img = qr.make_image(fill_color = 'black', back_color = 'white')
+img = qr.make_image(fill_color = 'purple', back_color = 'white')
 #Definindo a cor da linha para preto.fill_color
 #Definindo a cor de fundo para branco.back_color
 
-img.save('youtube_qr.png')
+img.save('image_qr.png')
