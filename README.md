@@ -1,40 +1,17 @@
 ## Gerador-de-QR-Code-com-python
 
-# Introdução
-Você já se perguntou como funcionam os códigos QR ou como as imagens procedurais são geradas? Você já quis enviar um link para alguém de um site muito mais legal? Se você disse sim para alguma dessas perguntas, você está com sorte!
+Criei um QR code em python com qrcode pillow
 
-Neste tutorial do projeto, vamos aprender a criar um QR code em Python com qrcode, pillow e apenas cinco linhas de código.
+Para que serve:
+Um código QR é importante porque oferece aos usuários uma maneira simples de acessar algo em uma fonte não convencional. Colocar um QR code em um pedaço de papel é uma experiência muito melhor e mais rápida para o usuário do que colocar um link para um site.
 
-Vamos lá!
-
-Exemplo QR
-
-# O que é um código QR?
-O código QR, abreviação de Quick Response code, foi originalmente inventado em 1994 por uma empresa japonesa de tecnologia. É um código de barras 2D contendo padrões pretos sobre fundo branco. No entanto, isso não é um rabisco comum: códigos QR são capazes de armazenar enormes quantidades de dados em um espaço enganosamente pequeno. Esses retângulos pretos podem armazenar links, texto, basicamente qualquer coisa que você quiser... e pode ser acessado simplesmente escaneando de qualquer dispositivo móvel!
-
-Um código QR é importante porque oferece aos usuários uma maneira simples de acessar algo em uma fonte não convencional (por exemplo, em um pedaço de papel). Colocar um QR code em um pedaço de papel é uma experiência muito melhor e mais rápida para o usuário do que colocar um link para um site. Por causa disso, os códigos QR estão se tornando mais usados do que os códigos de barras UPC e são encontrados em cardápios de restaurantes, cartões de visita e até em anúncios do Super Bowl!
-
-
-Chega de QR codes, vamos aprender a criar um!
-
-# Configuração
-Primeiro, vá ao editor de código Python que você escolher (recomendamos o VS Code) e crie um novo arquivo chamado qr_code.py. É aqui que vamos escrever nosso código.
-
-Nota: Você pode chamar seu arquivo de qualquer nome, menos qrcode.py. Isso porque qrcode.py é um arquivo que já existe como parte da biblioteca que vamos usar, e chamar seu arquivo, isso vai sobrescrever as funções da biblioteca.qrcode
-
-Para começar, precisamos instalar as duas bibliotecas:
+Bibliotecas:
 
 A biblioteca qrcode: Esta biblioteca nos permite realizar todas as nossas operações relacionadas a códigos QR.
 A biblioteca de travesseiros: Essa biblioteca nos ajuda a processar e salvar imagens.
-Para instalar e , execute este comando dentro do terminal VS Code:qrcodepillow
 
-pip install qrcode pillow
 
-Para este tutorial, estamos usando qrcode versão 7.3.1 e Pillow versão 9.2.0.
 
-Em seguida, adicione esta linha de código à primeira linha de qr_code.py:
-
-import qrcode
 
 Essa linha de código garante que as duas bibliotecas possam ser usadas no restante do nosso código, já que o código Python é executado de cima a baixo em um arquivo. Só precisamos importar , porque é implicitamente importado.qrcodepillow
 
